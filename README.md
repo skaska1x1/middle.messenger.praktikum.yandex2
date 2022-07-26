@@ -1,1 +1,1 @@
-123
+https://middle-messenger-praktikum-yandex.netlify.app
