@@ -4,19 +4,20 @@
   "description": "Parcel Sandbox",
   "source": "src/index.html",
   "scripts": {
-    "start": "parcel src/index.html  --no-source-maps --target default --dist-dir ./build",
+    "start": "parcel src/index.html  --open --port 3000  --no-source-maps --target default --dist-dir ./build",
     "start1": "parcel src/index.html --open --no-source-maps",
     "start2": "parcel build src/index.html",
     "watch": "parcel watch",
-    "build": "parcel build"
+    "build": "parcel build",
+    "server": "node src/server.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@parcel/transformer-inline-string": "^2.4.1",
-    "express": "^4.18.1",
-    "parcel": "^2.4.1",
-    "parcel-transformer-hbs": "^1.0.4"
+    "@parcel/transformer-inline-string": "2.4.1",
+    "express": "4.18.1",
+    "parcel": "2.4.1",
+    "parcel-transformer-hbs": "1.0.4"
   },
   "targets": {
     "default": {
@@ -24,6 +25,10 @@
     }
   },
   "dependencies": {
-    "handlebars": "^4.7.7"
+    "handlebars": "4.7.7"
+  },
+  "engines": {
+    "node": "v16.16.0",
+    "npm": "8.11.0"
   }
 }
