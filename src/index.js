@@ -6,7 +6,6 @@ const data = {
 	content: 'Содержимое'
 }
 
-// console.log(tpl(data));
 
 import './style.css';
 import button from './components/button';
@@ -22,19 +21,8 @@ import profileChange from './pages/profile/profileChange';
 import fileNotFound404 from './pages/error/fileNotFound404';
 import serverError500 from './pages/error/serverError500';
 
-
-// console.log(tpl);
-
 document.getElementById('root').innerHTML = tpl({
 	fname: 'students',
 	btn: button('btn1', 'Click this')
 });
 
-
-// window.createButton = (id, value) => {
-
-// 	const htmlTpl = document.createElement('template');
-// 	htmlTpl.innerHTML = button(id, value);
-
-// 	document.getElementById('root').appendChild(htmlTpl.content);
-// }
