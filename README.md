@@ -2,6 +2,9 @@
 
 ## Sprint_1
 
+## Ссылка на Figma:
+- https://www.figma.com/file/24EUnEHGEDNLdOcxg7ULwV/Chat
+
 ## Команды для Parcel: 
 - npm run start
 - npm run build
