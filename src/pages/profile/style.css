@@ -1,0 +1,11 @@
+.profile-form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.profile-form__item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+}
