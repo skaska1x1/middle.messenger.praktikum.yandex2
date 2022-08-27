@@ -14,4 +14,4 @@
 - curl http://localhost:3000/
 
 ## Netlify: 
-- https://middle-messenger-praktikum-yandex.netlify.app
+- https://middle-messenger-praktikum-yandex2.netlify.app
